@@ -1,0 +1,11 @@
+GOAL: Having a functional Othello game
+
+Story line:
+
+• As a user, I want to have an Othello board to play
+• As a user, if I'm a white, I would like to see my stone display once per turn
+• As a user, I want to to see the valid move
+• As a user, I want to have win/lose when there is no move
+
+
+

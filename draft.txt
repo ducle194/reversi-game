@@ -1,0 +1,30 @@
+board - nested array of the board?
+        0: blank
+        1: white player
+        2: black player
+
+player? 
+    var enemy = player === 1 ? 2 : 1;
+    Player maybe an int of 1 or 2
+
+How to really check the valid move from x (Left-right) direction and y (Up - down) direction
+
+0 - What zero means for the board move?
+
+
+
+AI:
+Easy   - when choosing most undesirable move and limit the pick of desirable move
+Medium - 50/50 on choosing the desirable and undesirable move
+Hard   - 90% on choosing the desirable move
+
+MOVE: flipSquares = (squares, position, blackIsNow) => {
+        console.log(`RIGHT      ${position + 1}: ${squares[position + 1]}`)
+        console.log(`LEFT       ${position - 1}: ${squares[position - 1]}`)
+        console.log(`UP         ${position - 8}: ${squares[position - 8]}`)
+        console.log(`DOWN       ${position + 8}: ${squares[position + 8]}`)
+        console.log(`DOWN-LEFT  ${position + 7}: ${squares[position + 7]}`)
+        console.log(`DOWN-RIGHT ${position + 9}: ${squares[position + 9]}`)
+        console.log(`UP-LEFT    ${position - 7}: ${squares[position - 7]}`)
+        console.log(`UP-RIGHT   ${position - 9}: ${squares[position - 9]}`)
+    }

@@ -1,0 +1,135 @@
+/*ol,
+ul {
+    padding-left: 30px;
+}*/
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-stretch: condensed;
+    font-weight: bold;
+    font-size: 1.35em;
+    letter-spacing: 0.1em;
+}
+
+.square {
+    background: rgba(203, 250, 157, 0.71);
+    border: 1px solid #ffffff;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    /*line-height: 34px;*/
+    width: 2em;
+    height: 2em;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    width: 95%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+}
+
+.black {
+    background: black;
+}
+
+.white {
+    background: white;
+}
+
+.marker {
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+}
+
+.game-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.game-col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.game-info,
+.game-board {
+    /*background-color: #E5E5E5;*/
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.game-board {
+    flex: 0 0 50%;
+    max-width: 50%;
+    font-weight: 700;
+}
+
+.game-info {
+    flex: 0 0 50%;
+    max-width: 50%;
+    /*background: linear-gradient(135deg, #00FF7F, #00FA9A), linear-gradient(45deg, #90EE90, #00FA9A);*/
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.board {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column
+}
+
+
+/*@media (min-width: 768px) {
+    .game {
+        max-width: 80%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .game {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .game {
+        max-width: 80%;
+    }
+}*/
