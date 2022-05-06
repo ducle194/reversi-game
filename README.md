@@ -3,8 +3,4 @@ REVERSI WEB GAME
 - run the app : npm run start
 
 UI prototype : 
-https://www.figma.com/proto/NRfzp61Iw1RQNwmHTRmhAjo1/ReversiAI?node-id=38%3A1&scaling=scale-down-width
-
-Incoming features :
-- authentication
-- code editor for player to create their own bots and compete with other players
+https://www.figma.com/proto/NRfzp61Iw1RQNwmHTRmhAjo1/ReversiAI?page-id=58%3A60&node-id=5%3A2&viewport=241%2C48%2C0.16&scaling=scale-down&starting-point-node-id=5%3A2
